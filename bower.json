@@ -1,0 +1,19 @@
+{
+  "name": "winjs-mashup",
+  "version": "0.0.1",
+  "authors": [
+    "Paul Gildea <paul.gildea@live.com>"
+  ],
+  "description": "Example usage of JS libraries and WinJS", 
+  "main": "index.html",
+  "keywords": [
+    "winjs",
+    "handlebars"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "handlebars": "handlebars#~1.3.0"
+  }
+}
