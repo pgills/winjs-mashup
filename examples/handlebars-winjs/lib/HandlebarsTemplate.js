@@ -8,6 +8,8 @@
 			element.winControl = this;
 			WinJS.Utilities.addClass(this.element, "mashup-template");
 
+
+
 			// Compile the Handlebars template
 			this.template = Handlebars.compile(this.element.innerHTML);
 
@@ -18,9 +20,17 @@
 			},
 
 			template: null,
+		}),
+
+		PrecompiledTemplate: WinJS.Class.define(function(template){
+			this.template = template;
 		},
 		{
-			// Statics
+			render: function (context, host)  {
+				host.innerHTML = this.template(context);
+			},
+			
+			template: null
 		})
 	});
 })(WinJS, Handlebars);

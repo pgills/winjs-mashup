@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Handlebars and WinJS Mashup</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bower references -->
+    <script src="../../../bower_components/handlebars/handlebars.runtime.js"></script>
+
+    <!-- WinJS references -->
+    <script src="../../../winjs/js/base.js"></script>
+    <script src="../../../winjs/js/ui.js"></script>
+    <link rel="stylesheet" href="../../../winjs/css/ui-dark.css" />
+
+    <!-- Example references -->
+    <script src="../lib/HandlebarsTemplate.js"></script>
+    <script src="../lib/data.js"></script>
+    <script src="js/mashupItemTemplate.js"></script>
+    <script src="js/index.js"></script>
+
+  </head>
+  <body>
+  	<h1>Handlebars and WinJS Mashup</h1>
+  	<p>This example demonstrates how to use Precompiled Handlebars templates with WinJS controls that accept <code>WinJS.Binding.Template</code></p>
+  	<h2>Precompiled Handlebars Templates</h2>
+  	<ul data-win-control="WinJS.UI.Repeater"
+  	    data-win-options="{data: Data.items, template: Templates.itemTemplate }"></ul>
+  </body>
+</html>
