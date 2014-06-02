@@ -8,7 +8,7 @@ List of examples:
 
 # Installation Steps
 
-Clone a copy of the master winjs-polymer-samples git repo:
+Clone a copy of the master winjs-mashup git repo:
 ```
 git clone https://github.com/pgills/winjs-mashup.git
 ```
