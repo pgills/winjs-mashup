@@ -1,11 +1,14 @@
 winjs-mashup
 ============
 
-A series of examples of using different JavaScript libraries with WinJS
+A series of examples of using popular JavaScript libraries with [WinJS](http://try.buildwinjs.com).
+
+List of examples:
+* [Handlebars Templates with WinJS](examples/handlebars-winjs)
 
 # Installation Steps
 
-Clone a copy of the master winjs-polymer-samples git repo:
+Clone a copy of the master winjs-mashup git repo:
 ```
 git clone https://github.com/pgills/winjs-mashup.git
 ```
