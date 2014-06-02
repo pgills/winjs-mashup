@@ -12,7 +12,7 @@ This example shows how to use Handlebars and WinJS both declaratively and progra
 It uses a WinJS [Repeater](http://try.buildwinjs.com/#repeater) with a [Handlebars](http://handlebarsjs.com/) template.
 
 ## Precompiled 
-This example shows how ot use a precompiled Handlebars template with a WinJS control.
+This example shows how to use a precompiled Handlebars template with a WinJS control.
 
 The template has already been precompiled. The source template is the `mashup.itemTemplate.handlebars` file and the precompiled JavaScript is the `mashupItemTemplate.js` file.
 
@@ -41,4 +41,4 @@ Include the `itemTemplate.js` file in your example. Also make sure you are inclu
 <script src="js/itemTemplate.js"></script>
 ```
 
-Visit the [Hanldebars website](http://handlebarsjs.com) for more information.
+Visit the [Handlebars website](http://handlebarsjs.com) for more information.
