@@ -5,6 +5,7 @@ A series of examples of using popular JavaScript libraries with [WinJS](http://t
 
 List of examples:
 * [Handlebars Templates with WinJS](examples/handlebars-winjs)
+* [Mustache Templates with WinJS](examples/mustache-winjs)
 
 # Installation Steps
 
