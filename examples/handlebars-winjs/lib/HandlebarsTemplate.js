@@ -1,36 +1,36 @@
 (function (WinJS, Handlebars) {
-	"use strict";
+    "use strict";
 
-	WinJS.Namespace.define("MashUp.Handlebars", {
-		Template: WinJS.Class.define(function ctor(element, options) {
-			// WinJS control conventions
-			this.element = element;
-			element.winControl = this;
-			WinJS.Utilities.addClass(this.element, "mashup-template");
+    WinJS.Namespace.define("MashUp.Handlebars", {
+        Template: WinJS.Class.define(function ctor(element, options) {
+            // WinJS control conventions
+            this.element = element;
+            element.winControl = this;
+            WinJS.Utilities.addClass(this.element, "mashup-template");
 
 
 
-			// Compile the Handlebars template
-			this.template = Handlebars.compile(this.element.innerHTML);
+            // Compile the Handlebars template
+            this.template = Handlebars.compile(this.element.innerHTML);
 
-		}, {
-			// Instance properties and functions
-			render: function (context, host) {
-				host.innerHTML = this.template(context);
-			},
+        }, {
+            // Instance properties and functions
+            render: function (context, host) {
+                host.innerHTML = this.template(context);
+            },
 
-			template: null,
-		}),
+            template: null,
+        }),
 
-		PrecompiledTemplate: WinJS.Class.define(function(template){
-			this.template = template;
-		},
-		{
-			render: function (context, host)  {
-				host.innerHTML = this.template(context);
-			},
-			
-			template: null
-		})
-	});
+        PrecompiledTemplate: WinJS.Class.define(function(template){
+            this.template = template;
+        },
+        {
+            render: function (context, host)  {
+                host.innerHTML = this.template(context);
+            },
+            
+            template: null
+        })
+    });
 })(WinJS, Handlebars);
