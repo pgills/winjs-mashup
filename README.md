@@ -1,7 +1,10 @@
 winjs-mashup
 ============
 
-A series of examples of using different JavaScript libraries with WinJS
+A series of examples of using popular JavaScript libraries with [WinJS](http://try.buildwinjs.com).
+
+List of examples:
+* [Handlebars Templates with WinJS](examples/handlebars-winjs)
 
 # Installation Steps
 
