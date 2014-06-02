@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mustache and WinJS Mashup</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bower references -->
+    <script src="../../bower_components/mustache/mustache.js"></script>
+
+    <!-- WinJS references -->
+    <script src="../../winjs/js/base.js"></script>
+    <script src="../../winjs/js/ui.js"></script>
+    <link rel="stylesheet" href="../../winjs/css/ui-dark.css" />
+
+    <!-- Example references -->
+    <script src="lib/MustacheTemplate.js"></script>
+    <script src="lib/data.js"></script>
+    <script src="js/index.js"></script>
+
+  </head>
+  <body>
+  	<h1>Mustache and WinJS Mashup</h1>
+  	<p>This example demonstrates how to use Mustache templates with WinJS controls that accept <code>WinJS.Binding.Template</code></p>
+  	<h2>Declarative Mustache Templates with Declarative WinJS Repeater</h2>
+  	<script class="item-template" type="x-tmpl-mustache" data-win-control="MashUp.Mustache.Template">
+  		<li>
+  			<span>Id: {{id}} </span><span>Text: {{text}}</span>
+  		</li>
+    </script>
+  	<ul class="ddrepeater" data-win-control="WinJS.UI.Repeater"
+  	    data-win-options="{data: Data.items, template: select('.item-template')}">
+    </ul>
+    <h2>Programmatic Mustache Templates with Declarative WinJS Repeater</h2>
+    <ul class="pdrepeater" data-win-control="WinJS.UI.Repeater"
+        data-win-options="{data: Data.items, template: Templates.render}">
+    </ul>
+    <h2>Programmatic Mustache Templates with Programmatic WinJS Repeater</h2>
+    <ul class="pprepeater">
+    </ul>
+  </body>
+</html>
