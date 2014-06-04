@@ -16,7 +16,7 @@ Just make sure to include WinJS, and then include the shim.
     <link href="css/Microsoft.WinJS.2.1/css/ui-dark.css" rel="stylesheet" />
     <script src="js/Microsoft.WinJS.2.1/js/base.js"></script>
     <script src="js/Microsoft.WinJS.2.1/js/ui.js"></script>
-    <script src="/js/knockout-winjs.js"></script>
+    <script src="js/knockout-winjs.js"></script>
 ```
 
 __Note: this shim library has only been tested against Knockout 3.1.0__
