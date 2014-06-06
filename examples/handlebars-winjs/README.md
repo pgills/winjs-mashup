@@ -18,6 +18,8 @@ This example shows how to use a precompiled Handlebars template with a WinJS con
 
 The template has already been precompiled. The source template is the `mashup.itemTemplate.handlebars` file and the precompiled JavaScript is the `mashupItemTemplate.js` file.
 
+![Precompiled Handlebars and WinJS screen shot](https://raw.githubusercontent.com/pgills/winjs-mashup/master/examples/handlebars-winjs/sceenshots/handlebarsAndWinJSPrecompiled.PNG)
+
 ### How to precompile your own template with this example:
 
 Install Handlebars globably
