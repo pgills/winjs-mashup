@@ -11,6 +11,8 @@ This example shows how to use Handlebars and WinJS both declaratively and progra
 
 It uses a WinJS [Repeater](http://try.buildwinjs.com/#repeater) with a [Handlebars](http://handlebarsjs.com/) template.
 
+![Handlebars and WinJS screen shot](https://raw.githubusercontent.com/pgills/winjs-mashup/master/examples/handlebars-winjs/sceenshots/handlebarsAndWinJS.PNG)
+
 ## Precompiled 
 This example shows how to use a precompiled Handlebars template with a WinJS control.
 
